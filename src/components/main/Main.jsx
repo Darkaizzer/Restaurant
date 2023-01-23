@@ -2,12 +2,12 @@
 import About from './About/About'
 import Hero from './Hero/Hero'
 import OfterOrder from './OftenOrder/OfterOrder'
-import Slider from './Slider/Slider'
+import Slide from './Slider/Slide'
 const Main = () => {
     return (
         <main>
    <About/>
-    <Slider/>
+    <Slide/>
    <Hero/>
     <OfterOrder/>
   </main>

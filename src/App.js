@@ -7,20 +7,27 @@ import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Modal from "./components/modal/Modal";
 import OurMenuPage from "./components/OurMenuPage/OurMenuPage";
-// import Main from "./components/main/Main";
+import Main from "./components/main/Main";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div class="wrapper">
       <Header />
-      {/* <Main /> */}
-      <AboutUsPage />
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/menu" element={<OurMenuPage />} />
+        <Route path="/contacts" element={<Contact />} />
+        <Route path="/basket" element={<Basket />} />
+        <Route path="/aboutUs" element={<AboutUsPage />} />
+      </Routes>
+
+      {/* <AboutUsPage /> */}
       {/* <OurMenuPage/> */}
       {/* <Basket/> */}
       {/* <Contact /> */}
       {/* <Modal/> */}
       {/* <EmptyBasket/> */}
-      
       <Footer />
     </div>
   );

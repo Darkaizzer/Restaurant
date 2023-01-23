@@ -1,16 +1,17 @@
+import { Link } from 'react-router-dom'
 import logo from '../common/image/logo.svg'
 const Header = () => { 
     return (
-        <header class="header">
-    <div class="container d-flex">
-      <a href="/"><img src={logo} alt="" /></a>
-      <div class="header-links d-flex">
-        <a href="./contact.html">Контакты</a>
-        <a href="./ourMenu.html">Меню</a>
-        <div class="header__cart">
-          <a href="./basket.html" class="button button--cart">
+        <header className="header">
+    <div className="container d-flex">
+      <Link to="/"><img src={logo} alt="" /></Link>
+      <div className="header-links d-flex">
+        <Link to="/contacts">Контакты</Link>
+        <Link to="/menu">Меню</Link>
+        <div className="header__cart">
+          <Link to="/basket" className="button button--cart">
             <span>520 сом</span>
-            <div class="button__delimiter"></div>
+            <div className="button__delimiter"></div>
             <svg
               width="18"
               height="18"
@@ -37,7 +38,7 @@ const Header = () => {
                 stroke-linejoin="round" />
             </svg>
             <span>3</span>
-          </a>
+          </Link>
         </div>
       </div>
     </div>
