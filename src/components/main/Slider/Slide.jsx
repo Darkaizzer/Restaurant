@@ -1,5 +1,5 @@
 import slaiderLeft from "../../common/image/slider-left.svg";
-// import slaidericon from '../../../../public/image/slider-img1.png'
+// import slaidericon from '../../public/image/slider-img1.png'
 import slaiderRiht from "../../common/image/slider0right.svg";
 import Slider from "react-slick";
 import { data } from "../../data/data";

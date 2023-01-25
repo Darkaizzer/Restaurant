@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import logo from '../common/image/logo.svg'
-const Header = () => { 
+const Header = ({ totalPrice,totalCount}) => { 
+
     return (
         <header className="header">
     <div className="container d-flex">
@@ -10,7 +11,7 @@ const Header = () => {
         <Link to="/menu">Меню</Link>
         <div className="header__cart">
           <Link to="/basket" className="button button--cart">
-            <span>520 сом</span>
+                <span>{totalPrice}сом</span>
             <div className="button__delimiter"></div>
             <svg
               width="18"
@@ -37,7 +38,7 @@ const Header = () => {
                 stroke-linecap="round"
                 stroke-linejoin="round" />
             </svg>
-            <span>3</span>
+                <span>{totalCount }</span>
           </Link>
         </div>
       </div>

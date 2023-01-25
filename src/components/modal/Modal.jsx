@@ -5,16 +5,27 @@ import modalT from '../common/image/modal-t.svg'
 import modalT1 from '../common/image/modal-t1.svg'
 import modalT2 from '../common/image/modal-t2.svg'
 import modalT3 from '../common/image/modal-t3.svg'
-import Button from '../common/button/Button'
-export const Modal = () => {
+import { data } from '../data/data'
+
+export const Modal = ({ activeModal, setActiveModal, madalId, onAddData,dataId,name,price }) => {
+  const onAdd = () => {
+    const addedData = {
+      dataId,
+      name,
+      // modalImage,
+      price
+    }
+    onAddData(addedData)
+    console.log(addedData);
+  }
   return (
-    <div className="modal-wrapper">
-    <div className="modal d-flex">
+    <div className={activeModal ? 'modal-wrapper active ':'modal-wrapper'} onClick={()=> setActiveModal(true)}>
+    <div className="modal d-flex" onClick={e => e.stopPropagation()}>
       <div className="d-flex">
         <img src={modalIcon} alt="" />
         <div>
           <div className="modal-info d-flex">
-            <h3 className="pizza-block__title">Карбонара</h3>
+              <h3 className="pizza-block__title">{ data[0].oftenOrderCards[madalId].name}</h3>
             <div className="pizza-block__selector">
               <ul>
                 <li className="active">тонкое</li>
@@ -56,9 +67,7 @@ export const Modal = () => {
           </div>
         </div>
       </div>
-        <Button> save</Button>
-        <Button> edit</Button>
-      <button className="button modal-btn">Добавить</button>
+      <button className="button modal-btn" onClick={onAdd}>Добавить</button>
     </div>
   </div>
   )

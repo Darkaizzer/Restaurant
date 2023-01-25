@@ -7,11 +7,26 @@
   }
   .modal{
     width: 70%;
-    margin: 70px auto;
+    margin: 130px auto;
     padding: 30px;
     background: #ffc878;
     border-radius: 30px;
     flex-direction: column;
+  }
+  .modal-wrapper{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top:0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    opacity: 1;
+    pointer-events: all;
+  }
+  .modal-wrapper.active{
+    opacity: 0;
+    pointer-events: none;
+    
   }
   .modal-info {
     flex-direction: column;

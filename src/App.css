@@ -1,3 +1,5 @@
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
   @font-face {
   font-family: 'AmaticSC-Regular';
   src: url('./components/fonts/AmaticSC-Regular.ttf') format('truetype');
@@ -64,7 +66,7 @@ p {
   background-color: #000000;
 }
 .header {
-  height: 115px;
+  height: 100px;
   background: #000000;
   position: sticky;
   top: 0;
@@ -131,13 +133,20 @@ p {
 }
 .hover-text-one {
   overflow: hidden;
-  margin: 0;
-  width: 32%;
+  margin: 0 10px;
+  width: 90% !important;
   height: 530px;
   list-style: none;
   text-align: center;
   border: 2px solid #673ab7;
   border-radius: 20px;
+}
+
+
+.slick-prev:before, .slick-next:before{
+  color: #673ab7;
+  font-size: 27px;
+  padding: 5px;
 }
 .hover-text-one figure {
   position: relative;
