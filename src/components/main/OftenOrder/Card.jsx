@@ -1,5 +1,4 @@
 import React from "react";
-import { Modal } from "../../modal/Modal";
 export const Card = ({
   setActiveModal,
   item,
@@ -11,15 +10,14 @@ export const Card = ({
   id,
   name,
   price,
-}) => {
-  const onModalClick = () => {
-    setActiveModal(false);
-    setModalId(index);
-  };
+  count,
+  modalImage,
+  onModalClick
+}) => { 
   return (
     <>
       <div
-        onClick={onModalClick}
+        onClick={() => onModalClick(item)}
         key={item.id}
         class="often-order__card d-flex">
         <div class="d-flex">
@@ -28,16 +26,7 @@ export const Card = ({
         </div>
         <span>от {item.price} сом</span>
       </div>
-      <Modal
-        dataId={id}
-        name={name}
-        price={price}
-        onAddData ={onAddData}
-        madalId={madalId}
-        setModalId={setModalId}
-        id={item.id}
-        activeModal={activeModal}
-        setActiveModal={setActiveModal}/>
+     
     </>
   );
 };

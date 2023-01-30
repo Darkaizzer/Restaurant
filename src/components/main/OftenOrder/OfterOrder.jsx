@@ -1,11 +1,16 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import Modal from "../../modal/Modal";
 import { Card } from "./Card";
 
-const OfterOrder = ({db,setDb,onAddData}) => {
-  const [activeModal, setActiveModal] = useState(true)
-  const [madalId,setModalId] = useState(0)
-   
+const OfterOrder = ({ db, setDb, onAddData, modalImage }) => {
+  const [activeModal, setActiveModal] = useState(true);
+  const [madalId, setModalId] = useState(null);
+
+  const onModalClick = (index) => {
+    setActiveModal(false);
+    setModalId(index);
+  };
   return (
     <section class="often-order">
       <div class="container d-flex" id="oftenOrder">
@@ -13,7 +18,9 @@ const OfterOrder = ({db,setDb,onAddData}) => {
         <div class="often-order__cards d-flex">
           {db.map((item) => (
             <Card
-            onAddData={onAddData}
+             
+              onModalClick={onModalClick}
+              onAddData={onAddData}
               key={item.id}
               index={item.id}
               {...item}
@@ -21,91 +28,20 @@ const OfterOrder = ({db,setDb,onAddData}) => {
               madalId={madalId}
               setModalId={setModalId}
               activeModal={activeModal}
-              setActiveModal={setActiveModal} />
+              setActiveModal={setActiveModal}
+            />
           ))}
-
-          {/* <div class="often-order__card d-flex">
-            <div class="d-flex">
-              <h5>Пицца из половинок</h5>
-              <p>Соберите свою пиццу 35 см с двумя разными вкусами</p>
-            </div>
-            <span>от 580 сом</span>
-          </div>
-          <div class="often-order__card d-flex">
-            <div class="d-flex">
-              <h5>Пицца из половинок</h5>
-              <p>Соберите свою пиццу 35 см с двумя разными вкусами</p>
-            </div>
-            <span>от 580 сом</span>
-          </div>
-          <div class="often-order__card d-flex">
-            <div class="d-flex">
-              <h5>Пицца из половинок</h5>
-              <p>Соберите свою пиццу 35 см с двумя разными вкусами</p>
-            </div>
-            <span>от 580 сом</span>
-          </div>
-          <div class="often-order__card d-flex">
-            <div class="d-flex">
-              <h5>Пицца из половинок</h5>
-              <p>Соберите свою пиццу 35 см с двумя разными вкусами</p>
-            </div>
-            <span>от 580 сом</span>
-          </div>
-          <div class="often-order__card d-flex">
-            <div class="d-flex">
-              <h5>Пицца из половинок</h5>
-              <p>Соберите свою пиццу 35 см с двумя разными вкусами</p>
-            </div>
-            <span>от 580 сом</span>
-          </div>
-          <div class="often-order__card d-flex">
-            <div class="d-flex">
-              <h5>Пицца из половинок</h5>
-              <p>Соберите свою пиццу 35 см с двумя разными вкусами</p>
-            </div>
-            <span>от 580 сом</span>
-          </div>
-          <div class="often-order__card d-flex">
-            <div class="d-flex">
-              <h5>Пицца из половинок</h5>
-              <p>Соберите свою пиццу 35 см с двумя разными вкусами</p>
-            </div>
-            <span>от 580 сом</span>
-          </div>
-          <div class="often-order__card d-flex">
-            <div class="d-flex">
-              <h5>Пицца из половинок</h5>
-              <p>Соберите свою пиццу 35 см с двумя разными вкусами</p>
-            </div>
-            <span>от 580 сом</span>
-          </div>
-          <div class="often-order__card d-flex">
-            <div class="d-flex">
-              <h5>Пицца из половинок</h5>
-              <p>Соберите свою пиццу 35 см с двумя разными вкусами</p>
-            </div>
-            <span>от 580 сом</span>
-          </div>
-          <div class="often-order__card d-flex">
-            <div class="d-flex">
-              <h5>Пицца из половинок</h5>
-              <p>Соберите свою пиццу 35 см с двумя разными вкусами</p>
-            </div>
-            <span>от 580 сом</span>
-          </div>
-          <div class="often-order__card d-flex">
-            <div class="d-flex">
-              <h5>Пицца из половинок</h5>
-              <p>Соберите свою пиццу 35 см с двумя разными вкусами</p>
-            </div>
-            <span>от 580 сом</span>
-          </div> */}
         </div>
+        <Modal
+          onAddData={onAddData}
+          madalId={madalId}
+          setModalId={setModalId}
+          activeModal={activeModal}
+          setActiveModal={setActiveModal}
+        />
         <Link to="/menu">
           <span class="button button--outline">Показать все меню</span>{" "}
         </Link>
-       
       </div>
     </section>
   );

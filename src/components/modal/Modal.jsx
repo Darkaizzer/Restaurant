@@ -1,19 +1,19 @@
 import React from 'react'
 import './Modal.css'
-import modalIcon from '../common/image/modal.png'
 import modalT from '../common/image/modal-t.svg'
 import modalT1 from '../common/image/modal-t1.svg'
 import modalT2 from '../common/image/modal-t2.svg'
 import modalT3 from '../common/image/modal-t3.svg'
-import { data } from '../data/data'
 
-export const Modal = ({ activeModal, setActiveModal, madalId, onAddData,dataId,name,price }) => {
+
+export const Modal = ({ activeModal, setActiveModal, madalId, onAddData }) => {
   const onAdd = () => {
     const addedData = {
-      dataId,
-      name,
-      // modalImage,
-      price
+      id:madalId.id,
+      name:madalId.name,
+      modalImage:madalId.modalImage,
+      price:madalId.price,
+      count:madalId.count
     }
     onAddData(addedData)
     console.log(addedData);
@@ -22,10 +22,10 @@ export const Modal = ({ activeModal, setActiveModal, madalId, onAddData,dataId,n
     <div className={activeModal ? 'modal-wrapper active ':'modal-wrapper'} onClick={()=> setActiveModal(true)}>
     <div className="modal d-flex" onClick={e => e.stopPropagation()}>
       <div className="d-flex">
-        <img src={modalIcon} alt="" />
+        <img src={madalId && madalId.modalImage} alt="" />
         <div>
           <div className="modal-info d-flex">
-              <h3 className="pizza-block__title">{ data[0].oftenOrderCards[madalId].name}</h3>
+              <h3 className="pizza-block__title">{madalId && madalId.name}</h3>
             <div className="pizza-block__selector">
               <ul>
                 <li className="active">тонкое</li>
