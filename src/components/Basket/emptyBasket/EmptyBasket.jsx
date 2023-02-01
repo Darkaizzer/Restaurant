@@ -1,7 +1,11 @@
 import './EmptyBasket.css'
 import React from 'react'
 import EmptyBusket  from '../../common/image/emptyBusketSvg.svg'
+import { useNavigate } from 'react-router-dom';
 export function EmptyBasket() {
+  const navigate = useNavigate();
+
+  const goBack = () => navigate(-1)
   return (
     <div class="wrapper">
     {/* <header class="header">
@@ -54,7 +58,7 @@ export function EmptyBasket() {
         </p>
         <img src={EmptyBusket} alt="" />
         <a href="./index.html">
-          <button class="button button--black">Вернуться назад</button>
+          <button onClick={goBack} class="button button--black">Вернуться назад</button>
         </a>
       </div>
     </main>

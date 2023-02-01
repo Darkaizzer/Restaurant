@@ -35,7 +35,7 @@ function App() {
     }
   };
 
-  const onDeleteData = (item) => {
+  const onMinusItem = (item) => {
     const existData = emptyDb.find((el) => el.id === item.id);
     if (existData.total === 1) {
       const newData = emptyDb.filter((el) => el.id !== item.id);
@@ -46,6 +46,9 @@ function App() {
     }
   };
   
+  const onRemoveItem = (id) => {
+    setEmptyDb(el => emptyDb.filter(el => el.id !== id))
+  }
 
   const onClearCardData = () => {
     setEmptyDb([]);
@@ -58,30 +61,25 @@ function App() {
           path="/"
           element={<Main onAddData={onAddData} db={db} setDb={setDb} />}
         />
-        <Route path="/menu" element={<OurMenuPage />} />
+        <Route path="/menu" element={<OurMenuPage db={db} setDb={setDb} />} />
         <Route path="/contacts" element={<Contact />} />
         <Route
           path="/basket"
           element={
             <Basket
+            onRemoveItem={onRemoveItem}
               emptyDb={emptyDb}
               totalPrice={totalPrice}
               totalCount={totalCount}
               onAddData={onAddData}
               onClearCardData={onClearCardData}
-              onDeleteData={onDeleteData}
+              onDeleteData={onMinusItem}
             />
           }
         />
         <Route path="/aboutUs" element={<AboutUsPage />} />
       </Routes>
 
-      {/* <AboutUsPage /> */}
-      {/* <OurMenuPage/> */}
-      {/* <Basket/> */}
-      {/* <Contact /> */}
-      {/* <Modal/> */}
-      {/* <EmptyBasket/> */}
       <Footer />
     </div>
   );

@@ -1,9 +1,23 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./Basket.css";
 import { BasketCard } from "./BasketCard";
 import EmptyBasket from "./emptyBasket/EmptyBasket";
 
-const Basket = ({ emptyDb,totalCount,totalPrice,item,onAddData,onClearCardData,onDeleteData}) => {
+const Basket = ({
+  emptyDb,
+  totalCount,
+  totalPrice,
+  item,
+  onAddData,
+  onClearCardData,
+  onDeleteData,
+  onRemoveItem,
+}) => {
+
+  const navigate = useNavigate();
+
+  const goBack = () => navigate(-1)
+
   return (
     <div class="wrapper">
       {emptyDb.length ? (
@@ -88,13 +102,15 @@ const Basket = ({ emptyDb,totalCount,totalPrice,item,onAddData,onClearCardData,o
                 <div className="content__items">
                   {emptyDb.map((el) => (
                     <BasketCard
-                    onDeleteData={onDeleteData}
+                      onRemoveItem={onRemoveItem}
+                      onDeleteData={onDeleteData}
                       totalPrice={totalPrice}
                       totalCount={totalCount}
                       {...el}
                       el={el}
                       item={emptyDb.find((item) => item.id === el.id)}
-                      onAddData={onAddData}/>
+                      onAddData={onAddData}
+                    />
                   ))}
                   ;
                 </div>
@@ -111,7 +127,8 @@ const Basket = ({ emptyDb,totalCount,totalPrice,item,onAddData,onClearCardData,o
                   </div>
                   <div className="cart__bottom-buttons">
                     <Link
-                      to="/menu"
+                      to=""
+                      onClick={goBack}
                       className="button button--outline button--add go-back-btn"
                     >
                       <svg
