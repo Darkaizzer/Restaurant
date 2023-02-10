@@ -100,7 +100,7 @@
   .pagination{
     margin-top: 40px;
   }
-  .pagination a{
+  .pagination button{
     padding: 10px 15px;
-    text-decoration: none;
+    margin: 0 10px;
   }

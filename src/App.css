@@ -93,8 +93,8 @@ p {
 .often-order_btn {
   background: #673ab7;
   width: 220px;
-  height: 70px;
-  padding: 30px 20px;
+  height: 50px;
+  /* padding: 30px 20px; */
   cursor: pointer;
 }
 .about {

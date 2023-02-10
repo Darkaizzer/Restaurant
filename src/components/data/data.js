@@ -16,7 +16,8 @@ export const data = [
         size: [0, 1, 2],
         tastes: [0, 1, 2, 3],
         category: 1,
-        rating: '1'
+        rating: '1',
+        
       },
       {
         id: 1,

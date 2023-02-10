@@ -1,16 +1,9 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
 import Modal from "../../modal/Modal";
 import { Card } from "./Card";
 
-const OfterOrder = ({ db, setDb, onAddData, modalImage }) => {
-  const [activeModal, setActiveModal] = useState(true);
-  const [madalId, setModalId] = useState(null);
-
-  const onModalClick = (index) => {
-    setActiveModal(false);
-    setModalId(index);
-  };
+const OfterOrder = ({ db, setDb, onAddData,modalImage, activeModal,setActiveModal,madalId,setModalId,onModalClick }) => {
+  
   return (
     <section class="often-order">
       <div class="container d-flex" id="oftenOrder">
