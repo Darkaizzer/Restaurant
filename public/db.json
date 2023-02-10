@@ -165,22 +165,22 @@
           "sliderCardData": [
             {
               "id": 1,
-              "img": "",
+              "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/c940c5751e6d420e997d86c26a8ba16f_366x366.webp",
               "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
             },
             {
               "id": 2,
-              "img": "",
+              "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/c84a4190f97d4364ad2b614bd0d26297_366x366.webp",
               "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
             },
             {
               "id": 3,
-              "img": "",
+              "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/be07674c38c54fd78f878a33988a4373_366x366.webp",
               "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
             },
             {
               "id": 4,
-              "img": "",
+              "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/6a799a1a05a1428cb3b63edfa8cb0aeb_366x366.webp",
               "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
             }
           ]

@@ -12,9 +12,11 @@ import axios from "axios";
 
 function App() {
   const [db, setDb] = useState([]);
+  const [sliderData,setSliderData] = useState([]);
   const [emptyDb, setEmptyDb] = useState([]);
   const [activeModal, setActiveModal] = useState(true);
   const [madalId, setModalId] = useState(null);
+  const [isLoading, setIsLoading] = useState(true);
 
   const totalPrice = emptyDb.reduce(
     (prevVal, curVal) => prevVal + curVal.total * curVal.price,
@@ -67,6 +69,8 @@ function App() {
   };
 
   const onClearCardData = () => {
+    const newData = localStorage.clear();
+    setEmptyDb(newData);
     setEmptyDb([]);
   };
 
@@ -78,19 +82,21 @@ function App() {
     );
   }, []);
 
-  // const fetchData = async () => {
-  //   let resp = await fetch("http://localhost:3000/db.json");
-  //   let data = await resp.json();
-  //   setDb(data.data[0].oftenOrderCards);
-  // };
 
   useEffect(() => {
-    axios.get('http://localhost:3000/db.json')
-    .then(({data}) => setDb(data.data[0].oftenOrderCards))
-    // fetchData();
-    // fetch('http://localhost:3000/db.json')
-    //   .then(response => response.json())
-    // .then(data => setDb(data.data[0].oftenOrderCards))
+    axios.get("http://localhost:3000/db.json").then(({ data }) => {
+      setDb(data.data[0].oftenOrderCards);
+      // console.log(data.data)
+      setIsLoading(false);
+    });
+  }, []);
+
+  useEffect(() => {
+    axios.get("http://localhost:3000/db.json").then(({ data }) => {
+      setSliderData(data.data[1].sliderCardData);
+      // console.log(data.data)
+      setIsLoading(false);
+    });
   }, []);
 
   return (
@@ -101,6 +107,9 @@ function App() {
           path="/"
           element={
             <Main
+              sliderData={sliderData}
+              setIsLoading={setIsLoading}
+              isLoading={isLoading}
               onModalClick={onModalClick}
               madalId={madalId}
               setModalId={setModalId}

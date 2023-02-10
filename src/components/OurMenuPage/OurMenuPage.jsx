@@ -6,6 +6,9 @@ import Modal from "../modal/Modal";
 import { Categories } from "./categories/Categories";
 import "./OurMenuPage.css";
 import { Sort } from "./sort/Sort";
+
+
+
 const OurMenuPage = ({ db, setDb,onAddData,madalId,activeModal,setActiveModal,onModalClick,setModalId }) => {
   const [selectedType, setSelectedType] = useState({ type: "rating" });
   const [searchQuary, setSearchQuary] = useState("");

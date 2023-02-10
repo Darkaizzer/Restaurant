@@ -11,13 +11,20 @@ const Main = ({
   setModalId,
   setActiveModal,
   activeModal,
+  isLoading,
+  setIsLoading,
+  sliderData
+  
 }) => {
   return (
     <main>
       <About />
-      <Slide />
+      <Slide sliderData={sliderData} />
       <Hero />
       <OfterOrder
+        sliderData={sliderData}
+        setIsLoading={setIsLoading}
+        isLoading={isLoading}
         onModalClick={onModalClick}
         madalId={madalId}
         setModalId={setModalId}
