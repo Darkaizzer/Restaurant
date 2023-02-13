@@ -1,4 +1,5 @@
 import React from "react";
+import "./OfterOrder.scss"
 export const Card = ({
   setActiveModal,
   item,

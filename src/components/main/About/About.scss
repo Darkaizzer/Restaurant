@@ -1,0 +1,21 @@
+.about {
+  background-image: url("../../common/image/about-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 80vh;
+  flex-direction: column;
+  justify-content: space-evenly;
+  .about-greeting {
+    font-family: "AmaticSC-Regular";
+    font-weight: 700;
+    font-size: 120px;
+    color: #ffffff;
+  }
+  .about-greeting_links {
+    width: 35%;
+    span {
+      justify-content: center;
+    }
+  }
+}
