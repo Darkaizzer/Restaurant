@@ -1,8 +1,8 @@
 import React from "react";
 import { useState } from "react";
 
-export const Categories = ({ db, setDb }) => {
-  const [ CategoreFilter] = useState(db);
+export const Categories = ({setMenuData,menuData }) => {
+  const [ CategoreFilter] = useState(menuData);
   const [activeItem, setActiveItem] = useState("");
   const availavleCategories = [
     "Мясные",
@@ -13,13 +13,13 @@ export const Categories = ({ db, setDb }) => {
   ];
   const onFilterData = (item) => {
       if (item === "") {
-        setDb(CategoreFilter)
+        setMenuData(CategoreFilter)
       return;
     }
     const result = CategoreFilter.filter((el) => {
       return el.category === item;
     });
-      setDb(result)
+    setMenuData(result)
   };
 
   const onSelectCat = (index) => {

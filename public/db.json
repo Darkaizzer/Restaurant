@@ -1,265 +1,828 @@
 {
-    "data":[
+  "data": [
+    {
+      "oftenOrderCards": [
         {
-          "oftenOrderCards": [
-            {
-              "id": 0,
-              "name": "Бургер-пицца",
-              "modalImage":"https://dodopizza-a.akamaihd.net/static/Img/Products/c84a4190f97d4364ad2b614bd0d26297_366x366.webp",
-              "text": "Соберите свою пиццу 35 см с двумя разными вкусами",
-              "price": "580",
-              "count": 1,
-              "type": [0, 1],
-              "size": [0, 1, 2],
-              "tastes": [0, 1, 2, 3],
-              "category": 1,
-             " rating": "1"
-              
-            },
-            {
-             " id": 1,
-              "name": "Сырная🌱",
-              "modalImage":"https://dodopizza-a.akamaihd.net/static/Img/Products/e2393e247dc64ecbbf23c82243c0a399_366x366.webp",
-             " text": "Соберите свою пиццу 35 см с двумя разными вкусами",
-              "price": "480",
-              "count": 1,
-              "type": [0, 1],
-              "size": [0, 1, 2],
-              "tastes": [0, 1, 2, 3],
-              "category": 2,
-              "rating": "2"
-            },
-            {
-              "id": 2,
-              "name": "Маргарита🌱",
-              "modalImage":"https://dodopizza-a.akamaihd.net/static/Img/Products/3f19abd29d2a477a960992ec2f30782c_366x366.webp",
-              "text": "Соберите свою пиццу 40 см с двумя разными вкусами",
-              "price": "780",
-              "count": 1,
-             " type": [0, 1],
-              "size": [0, 1, 2],
-              "tastes": [0, 1, 2, 3],
-              "category": 0,
-              "rating": "2"
-            },
-            {
-              "id": 3,
-              "name": "Мексиканская 🌶🌶",
-             " modalImage":"https://dodopizza-a.akamaihd.net/static/Img/Products/6a799a1a05a1428cb3b63edfa8cb0aeb_366x366.webp",
-              "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
-             " price": "880",
-             " count": 1,
-              "type": [1],
-              "size": [0, 1, 2],
-              "tastes": [0, 1, 2, 3],
-              "category": 3,
-              "rating": "3"
-            },
-            {
-              "id": 4,
-              "name": "Цыпленок карри",
-             " modalImage":"https://dodopizza-a.akamaihd.net/static/Img/Products/f88f70774bdc4a198379c2f53b42f48f_366x366.webp",
-              "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
-             " price": "880",
-             " count": 1,
-              "type": [0, 1],
-              "size": [0, 1, 2],
-              "tastes": [0, 1, 2, 3],
-              "category": 2,
-              "rating": "4"
-            },
-            {
-              "id": 5,
-              "name": "Пицца из половинок🌱",
-             " modalImage":"https://dodopizza-a.akamaihd.net/static/Img/Products/c940c5751e6d420e997d86c26a8ba16f_292x292.webp",
-              "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
-             " price": "880",
-             " count": 1,
-              "type": [0],
-              "size": [0, 1, 2],
-              "tastes": [0, 1, 2, 3],
-              "category": 1,
-              "rating": "4"
-            },
-            {
-              "id": 6,
-              "name": "Ветчина и сыр",
-             " modalImage":"https://dodopizza-a.akamaihd.net/static/Img/Products/3fe12c4bb05c470c9cb45fb423b7c049_366x366.webp",
-              "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
-             " price": "830",
-             " count": 1,
-              "type": [0, 1],
-              "size": [0, 1, 2],
-              "tastes": [0, 1, 2, 3],
-              "category": 2,
-              "rating": "1"
-            },
-            {
-              "id": 7,
-              "name": "Аррива!",
-             " modalImage":"https://dodopizza-a.akamaihd.net/static/Img/Products/ebbfdf6f8fa74935af77b784a1ff2e1d_366x366.webp",
-              "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
-             " price": "800",
-             " count": 1,
-              "type": [0, 1],
-              "size": [0, 1, 2],
-              "tastes": [0, 1, 2, 3],
-              "category": 2,
-              "rating": "0"
-            },
-            {
-              "id": 8,
-              "name": "Сырный цыпленок",
-             " modalImage":"https://dodopizza-a.akamaihd.net/static/Img/Products/5235270a2b6049a7b350350f8a170390_366x366.webp",
-              "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
-             " price": "800",
-             " count": 1,
-              "type": [0, 1],
-              "size": [0, 1, 2],
-              "tastes": [0, 1, 2, 3],
-              "category": 4,
-              "rating": "0"
-            },
-            {
-              "id": 9,
-              "name": "Гавайская",
-             " modalImage":"https://dodopizza-a.akamaihd.net/static/Img/Products/7f300e9640544285ad377cd6ffcacc5e_366x366.webp",
-              "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
-             " price": "880",
-             " count": 1,
-              "type": [1],
-              "size": [0, 1, 2],
-              "tastes": [0, 1, 2, 3],
-              "category": 3,
-              "rating": "2"
-            },
-            {
-              "id": 10,
-              "name": "Додо",
-             " modalImage":"https://dodopizza-a.akamaihd.net/static/Img/Products/ada478de4d6a466aa049f59b4656a781_366x366.webp",
-              "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
-             " price": "880",
-             " count": 1,
-              "type": [1],
-              "size": [0, 1, 2],
-              "tastes": [0, 1, 2, 3],
-              "category": 1,
-              "rating": "4"
-            },
-            {
-              "id": 11,
-              "name": "Четыре сезона",
-             " modalImage":"https://dodopizza-a.akamaihd.net/static/Img/Products/152afd9328f044a884b9f8f1e7f28a8a_366x366.webp",
-              "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
-             " price": "880",
-             " count": 1,
-              "type": [0],
-              "size": [0, 1, 2],
-              "tastes": [0, 1, 2, 3],
-              "category": 3,
-              "rating": "0"
-            }
-          ]
+          "id": 0,
+          "name": "Бургер-пицца",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/c84a4190f97d4364ad2b614bd0d26297_366x366.webp",
+          "text": "Соберите свою пиццу 35 см с двумя разными вкусами",
+          "price": "580",
+          "count": 1,
+          "type": [0, 1],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 1,
+          "rating": "1"
         },
         {
-          "sliderCardData": [
-            {
-              "id": 1,
-              "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/c940c5751e6d420e997d86c26a8ba16f_366x366.webp",
-              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-            },
-            {
-              "id": 2,
-              "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/c84a4190f97d4364ad2b614bd0d26297_366x366.webp",
-              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-            },
-            {
-              "id": 3,
-              "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/be07674c38c54fd78f878a33988a4373_366x366.webp",
-              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-            },
-            {
-              "id": 4,
-              "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/6a799a1a05a1428cb3b63edfa8cb0aeb_366x366.webp",
-              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-            }
-          ]
+          "id": 1,
+          "name": "Сырная🌱",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/e2393e247dc64ecbbf23c82243c0a399_366x366.webp",
+          "text": "Соберите свою пиццу 35 см с двумя разными вкусами",
+          "price": "480",
+          "count": 1,
+          "type": [0, 1],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 2,
+          "rating": "2"
         },
         {
-          "menuCardData": [
-            {
-              "id": 1,
-              "name": "Пицца из половинок",
-              "text": "Соберите свою пиццу 35 см с двумя разными вкусами",
-             " price": 480
-            },
-            {
-              "id": 2,
-              "name": "Пицца из половинок",
-              "text": "Соберите свою пиццу 35 см с двумя разными вкусами",
-             " price": 480
-            },
-            {
-              "id": 3,
-              "name": "Пицца из половинок",
-              "text": "Соберите свою пиццу 35 см с двумя разными вкусами",
-             " price": 480
-            },
-            {
-              "id": 4,
-              "name": "Пицца из половинок",
-              "text": "Соберите свою пиццу 35 см с двумя разными вкусами",
-             " price": 480
-            },
-            {
-              "id": 5,
-              "name": "Пицца из половинок",
-              "text": "Соберите свою пиццу 25 см с двумя разными вкусами",
-             " price": 580
-            },
-            {
-              "id": 6,
-              "name": "Пицца из половинок",
-              "text": "Соберите свою пиццу 40 см с двумя разными вкусами",
-             " price": 780
-            },
-            {
-              "id": 7,
-              "name": "Пицца из половинок",
-              "text": "Соберите свою пиццу 40 см с двумя разными вкусами",
-             " price": 780
-            },
-            {
-              "id": 8,
-              "name": "Пицца из половинок",
-              "text": "Соберите свою пиццу 35 см с двумя разными вкусами",
-             " price": 480
-            },
-            {
-              "id": 9,
-              "name": "Пицца из половинок",
-              "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
-             " price": 880
-            },
-            {
-              "id": 10,
-              "name": "Пицца из половинок",
-              "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
-             " price": 890
-            },
-            {
-              "id": 11,
-              "name": "Пицца из половинок",
-              "text": "Соберите свою пиццу 35 см с двумя разными вкусами",
-             " price": 480
-            },
-            {
-              "id": 12,
-              "name": "Пицца из половинок",
-              "text": "Соберите свою пиццу 35 см с двумя разными вкусами",
-             " price": 480
-            }
-          ]
+          "id": 2,
+          "name": "Маргарита🌱",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/3f19abd29d2a477a960992ec2f30782c_366x366.webp",
+          "text": "Соберите свою пиццу 40 см с двумя разными вкусами",
+          "price": "780",
+          "count": 1,
+          "type": [0, 1],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 0,
+          "rating": "2"
+        },
+        {
+          "id": 3,
+          "name": "Мексиканская 🌶🌶",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/6a799a1a05a1428cb3b63edfa8cb0aeb_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [1],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "3"
+        }
+        
+      ]
+    },
+    {
+      "sliderCardData": [
+        {
+          "id": 1,
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/c940c5751e6d420e997d86c26a8ba16f_366x366.webp",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        },
+        {
+          "id": 2,
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/c84a4190f97d4364ad2b614bd0d26297_366x366.webp",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        },
+        {
+          "id": 3,
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/be07674c38c54fd78f878a33988a4373_366x366.webp",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        },
+        {
+          "id": 4,
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/6a799a1a05a1428cb3b63edfa8cb0aeb_366x366.webp",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
         }
       ]
+    },
+    {
+      "menuCardData": [
+        {
+          "id": 1,
+          "name": "Пицца из половинок",
+          "text": "Соберите свою пиццу 35 см с двумя разными вкусами",
+          "price": 480
+        },
+        {
+          "id": 2,
+          "name": "Пицца из половинок",
+          "text": "Соберите свою пиццу 35 см с двумя разными вкусами",
+          "price": 480
+        },
+        {
+          "id": 3,
+          "name": "Пицца из половинок",
+          "text": "Соберите свою пиццу 35 см с двумя разными вкусами",
+          "price": 480
+        },
+        {
+          "id": 4,
+          "name": "Пицца из половинок",
+          "text": "Соберите свою пиццу 35 см с двумя разными вкусами",
+          "price": 480
+        },
+        {
+          "id": 5,
+          "name": "Пицца из половинок",
+          "text": "Соберите свою пиццу 25 см с двумя разными вкусами",
+          "price": 580
+        },
+        {
+          "id": 6,
+          "name": "Пицца из половинок",
+          "text": "Соберите свою пиццу 40 см с двумя разными вкусами",
+          "price": 780
+        },
+        {
+          "id": 7,
+          "name": "Пицца из половинок",
+          "text": "Соберите свою пиццу 40 см с двумя разными вкусами",
+          "price": 780
+        },
+        {
+          "id": 8,
+          "name": "Пицца из половинок",
+          "text": "Соберите свою пиццу 35 см с двумя разными вкусами",
+          "price": 480
+        },
+        {
+          "id": 9,
+          "name": "Пицца из половинок",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": 880
+        },
+        {
+          "id": 10,
+          "name": "Пицца из половинок",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": 890
+        },
+        {
+          "id": 11,
+          "name": "Пицца из половинок",
+          "text": "Соберите свою пиццу 35 см с двумя разными вкусами",
+          "price": 480
+        },
+        {
+          "id": 12,
+          "name": "Пицца из половинок",
+          "text": "Соберите свою пиццу 35 см с двумя разными вкусами",
+          "price": 480
+        }
+      ]
+    },
+    {
+      "menuCards": [
+        {
+          "id": 0,
+          "name": "Бургер-пицца",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/c84a4190f97d4364ad2b614bd0d26297_366x366.webp",
+          "text": "Соберите свою пиццу 35 см с двумя разными вкусами",
+          "price": "580",
+          "count": 1,
+          "type": [0, 1],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 1,
+          "rating": "1"
+        },
+        {
+          "id": 1,
+          "name": "Сырная🌱",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/e2393e247dc64ecbbf23c82243c0a399_366x366.webp",
+          "text": "Соберите свою пиццу 35 см с двумя разными вкусами",
+          "price": "480",
+          "count": 1,
+          "type": [0, 1],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 2,
+          "rating": "2"
+        },
+        {
+          "id": 2,
+          "name": "Маргарита🌱",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/3f19abd29d2a477a960992ec2f30782c_366x366.webp",
+          "text": "Соберите свою пиццу 40 см с двумя разными вкусами",
+          "price": "780",
+          "count": 1,
+          "type": [0, 1],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 0,
+          "rating": "2"
+        },
+        {
+          "id": 3,
+          "name": "Мексиканская 🌶🌶",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/6a799a1a05a1428cb3b63edfa8cb0aeb_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [1],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "3"
+        },
+        {
+          "id": 4,
+          "name": "Цыпленок карри",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/f88f70774bdc4a198379c2f53b42f48f_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [0, 1],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 2,
+          "rating": "4"
+        },
+        {
+          "id": 5,
+          "name": "Пицца из половинок🌱",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/c940c5751e6d420e997d86c26a8ba16f_292x292.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [0],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 1,
+          "rating": "4"
+        },
+        {
+          "id": 6,
+          "name": "Ветчина и сыр",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/3fe12c4bb05c470c9cb45fb423b7c049_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "830",
+          "count": 1,
+          "type": [0, 1],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 2,
+          "rating": "1"
+        },
+        {
+          "id": 7,
+          "name": "Аррива!",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/ebbfdf6f8fa74935af77b784a1ff2e1d_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "800",
+          "count": 1,
+          "type": [0, 1],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 2,
+          "rating": "0"
+        },
+        {
+          "id": 8,
+          "name": "Сырный цыпленок",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/5235270a2b6049a7b350350f8a170390_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "800",
+          "count": 1,
+          "type": [0, 1],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 4,
+          "rating": "0"
+        },
+        {
+          "id": 9,
+          "name": "Гавайская",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/7f300e9640544285ad377cd6ffcacc5e_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [1],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "2"
+        },
+        {
+          "id": 10,
+          "name": "Додо",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/ada478de4d6a466aa049f59b4656a781_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [1],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 1,
+          "rating": "4"
+        },
+        {
+          "id": 11,
+          "name": "Четыре сезона",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/152afd9328f044a884b9f8f1e7f28a8a_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [0],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "0"
+        },
+        {
+          "id": 12,
+          "name": "Четыре сезона",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/152afd9328f044a884b9f8f1e7f28a8a_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [0],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "0"
+        },
+        {
+          "id": 13,
+          "name": "Четыре сезона",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/152afd9328f044a884b9f8f1e7f28a8a_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [0],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "0"
+        },
+        {
+          "id": 14,
+          "name": "Четыре сезона",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/152afd9328f044a884b9f8f1e7f28a8a_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [0],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "0"
+        },
+        {
+          "id": 15,
+          "name": "Четыре сезона",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/152afd9328f044a884b9f8f1e7f28a8a_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [0],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "0"
+        },
+        {
+          "id": 16,
+          "name": "Четыре сезона",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/152afd9328f044a884b9f8f1e7f28a8a_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [0],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "0"
+        },
+        {
+          "id": 17,
+          "name": "Четыре сезона",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/152afd9328f044a884b9f8f1e7f28a8a_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [0],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "0"
+        },
+        {
+          "id": 18,
+          "name": "Четыре сезона",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/152afd9328f044a884b9f8f1e7f28a8a_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [0],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "0"
+        },
+        {
+          "id": 19,
+          "name": "Четыре сезона",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/152afd9328f044a884b9f8f1e7f28a8a_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [0],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "0"
+        },
+        {
+          "id": 20,
+          "name": "Четыре сезона",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/152afd9328f044a884b9f8f1e7f28a8a_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [0],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "0"
+        },
+        {
+          "id": 21,
+          "name": "Четыре сезона",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/152afd9328f044a884b9f8f1e7f28a8a_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [0],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "0"
+        },
+        {
+          "id": 22,
+          "name": "Четыре сезона",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/152afd9328f044a884b9f8f1e7f28a8a_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [0],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "0"
+        },
+        {
+          "id": 23,
+          "name": "Четыре сезона",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/152afd9328f044a884b9f8f1e7f28a8a_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [0],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "0"
+        },
+        {
+          "id": 24,
+          "name": "Четыре сезона",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/152afd9328f044a884b9f8f1e7f28a8a_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [0],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "0"
+        },
+        {
+          "id": 25,
+          "name": "Четыре сезона",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/152afd9328f044a884b9f8f1e7f28a8a_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [0],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "0"
+        },
+        {
+          "id": 26,
+          "name": "Четыре сезона",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/152afd9328f044a884b9f8f1e7f28a8a_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [0],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "0"
+        },
+        {
+          "id": 27,
+          "name": "Четыре сезона",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/152afd9328f044a884b9f8f1e7f28a8a_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [0],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "0"
+        },
+        {
+          "id": 28,
+          "name": "Четыре сезона",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/152afd9328f044a884b9f8f1e7f28a8a_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [0],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "0"
+        },
+        {
+          "id": 29,
+          "name": "Четыре сезона",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/152afd9328f044a884b9f8f1e7f28a8a_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [0],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "0"
+        },
+        {
+          "id": 30,
+          "name": "Четыре сезона",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/152afd9328f044a884b9f8f1e7f28a8a_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [0],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "0"
+        },
+        {
+          "id": 31,
+          "name": "Четыре сезона",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/152afd9328f044a884b9f8f1e7f28a8a_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [0],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "0"
+        },
+        {
+          "id": 32,
+          "name": "Четыре сезона",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/152afd9328f044a884b9f8f1e7f28a8a_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [0],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "0"
+        },
+        {
+          "id": 33,
+          "name": "Четыре сезона",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/152afd9328f044a884b9f8f1e7f28a8a_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [0],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "0"
+        },
+        {
+          "id": 34,
+          "name": "Четыре сезона",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/152afd9328f044a884b9f8f1e7f28a8a_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [0],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "0"
+        },
+        {
+          "id": 35,
+          "name": "Четыре сезона",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/152afd9328f044a884b9f8f1e7f28a8a_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [0],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "0"
+        },
+        {
+          "id": 36,
+          "name": "Четыре сезона",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/152afd9328f044a884b9f8f1e7f28a8a_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [0],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "0"
+        },
+        {
+          "id": 37,
+          "name": "Четыре сезона",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/152afd9328f044a884b9f8f1e7f28a8a_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [0],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "0"
+        },
+        {
+          "id": 38,
+          "name": "Четыре сезона",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/152afd9328f044a884b9f8f1e7f28a8a_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [0],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "0"
+        },
+        {
+          "id": 39,
+          "name": "Четыре сезона",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/152afd9328f044a884b9f8f1e7f28a8a_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [0],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "0"
+        },
+        {
+          "id": 40,
+          "name": "Четыре сезона",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/152afd9328f044a884b9f8f1e7f28a8a_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [0],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "0"
+        },
+        {
+          "id": 41,
+          "name": "Четыре сезона",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/152afd9328f044a884b9f8f1e7f28a8a_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [0],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "0"
+        },
+        {
+          "id": 42,
+          "name": "Четыре сезона",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/152afd9328f044a884b9f8f1e7f28a8a_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [0],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "0"
+        },
+        {
+          "id": 43,
+          "name": "Четыре сезона",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/152afd9328f044a884b9f8f1e7f28a8a_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [0],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "0"
+        },
+        {
+          "id": 44,
+          "name": "Четыре сезона",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/152afd9328f044a884b9f8f1e7f28a8a_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [0],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "0"
+        },
+        {
+          "id": 45,
+          "name": "Четыре сезона",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/152afd9328f044a884b9f8f1e7f28a8a_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [0],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "0"
+        },
+        {
+          "id": 46,
+          "name": "Четыре сезона",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/152afd9328f044a884b9f8f1e7f28a8a_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [0],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "0"
+        },
+        {
+          "id": 47,
+          "name": "Четыре сезона",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/152afd9328f044a884b9f8f1e7f28a8a_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [0],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "0"
+        },
+        {
+          "id": 48,
+          "name": "Четыре сезона",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/152afd9328f044a884b9f8f1e7f28a8a_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [0],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "0"
+        },
+        {
+          "id": 49,
+          "name": "Четыре сезона",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/152afd9328f044a884b9f8f1e7f28a8a_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [0],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "0"
+        },
+        {
+          "id": 50,
+          "name": "Четыре сезона",
+          "modalImage": "https://dodopizza-a.akamaihd.net/static/Img/Products/152afd9328f044a884b9f8f1e7f28a8a_366x366.webp",
+          "text": "Соберите свою пиццу 45 см с двумя разными вкусами",
+          "price": "880",
+          "count": 1,
+          "type": [0],
+          "size": [0, 1, 2],
+          "tastes": [0, 1, 2, 3],
+          "category": 3,
+          "rating": "0"
+        }
+      ]
+    }
+  ]
 }

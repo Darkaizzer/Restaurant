@@ -7,17 +7,26 @@ import { Categories } from "./categories/Categories";
 import "./OurMenuPage.css";
 import { Sort } from "./sort/Sort";
 
-
-
-const OurMenuPage = ({ db, setDb,onAddData,madalId,activeModal,setActiveModal,onModalClick,setModalId }) => {
+const OurMenuPage = ({
+  setMenuData,
+  menuData,
+  db,
+  setDb,
+  onAddData,
+  madalId,
+  activeModal,
+  setActiveModal,
+  onModalClick,
+  setModalId,
+}) => {
   const [selectedType, setSelectedType] = useState({ type: "rating" });
   const [searchQuary, setSearchQuary] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
-  const [prevPage] = useState(4);
+  const [prevPage] = useState(12);
 
   const lastPage = currentPage * prevPage;
   const firstPage = lastPage - prevPage;
-  const currentMenuPage = db.slice(firstPage, lastPage);
+  const currentMenuPage = menuData.slice(firstPage, lastPage);
 
   const sortTypes = [
     { name: "популярности", type: "rating" },
@@ -34,6 +43,7 @@ const OurMenuPage = ({ db, setDb,onAddData,madalId,activeModal,setActiveModal,on
 
   const sortedData = useMemo(() => {
     if (selectedType) {
+      console.log(currentMenuPage)
       return [...currentMenuPage].sort((a, b) =>
         a[selectedType.type].localeCompare(b[selectedType.type])
       );
@@ -61,7 +71,7 @@ const OurMenuPage = ({ db, setDb,onAddData,madalId,activeModal,setActiveModal,on
         </section>
         <section className="search-block">
           <div className="container d-flex">
-            <Categories db={db} setDb={setDb} />
+            <Categories menuData={menuData} setMenuData={setMenuData} />
             <Sort
               sortTypes={sortTypes}
               onSortData={onSortData}
@@ -83,22 +93,23 @@ const OurMenuPage = ({ db, setDb,onAddData,madalId,activeModal,setActiveModal,on
             <div className="often-order__cards d-flex">
               {sortedSearchedData.map((el) => (
                 <Card
-                onModalClick={onModalClick}
-                onAddData={onAddData}
-                key={el.id}
-                index={el.id}
-                {...el}
-                item={el}
-                madalId={madalId}
-                activeModal={activeModal}
-                setActiveModal={setActiveModal}
+                  onModalClick={onModalClick}
+                  onAddData={onAddData}
+                  key={el.id}
+                  index={el.id}
+                  {...el}
+                  item={el}
+                  madalId={madalId}
+                  activeModal={activeModal}
+                  setActiveModal={setActiveModal}
                 />
               ))}
             </div>
             <Pagination
+              
               setCurrentPage={setCurrentPage}
               prevPage={prevPage}
-              totalPages={db.length}
+              totalPages={menuData.length}
             />
             <Modal
               onAddData={onAddData}

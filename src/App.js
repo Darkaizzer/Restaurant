@@ -12,7 +12,8 @@ import axios from "axios";
 
 function App() {
   const [db, setDb] = useState([]);
-  const [sliderData,setSliderData] = useState([]);
+  const [sliderData, setSliderData] = useState([]);
+  const [menuData, setMenuData] = useState([]);
   const [emptyDb, setEmptyDb] = useState([]);
   const [activeModal, setActiveModal] = useState(true);
   const [madalId, setModalId] = useState(null);
@@ -82,22 +83,25 @@ function App() {
     );
   }, []);
 
+  
 
   useEffect(() => {
     axios.get("http://localhost:3000/db.json").then(({ data }) => {
       setDb(data.data[0].oftenOrderCards);
+      setSliderData(data.data[1].sliderCardData);
+      setMenuData(data.data[3].menuCards)
       // console.log(data.data)
       setIsLoading(false);
     });
   }, []);
 
-  useEffect(() => {
-    axios.get("http://localhost:3000/db.json").then(({ data }) => {
-      setSliderData(data.data[1].sliderCardData);
-      // console.log(data.data)
-      setIsLoading(false);
-    });
-  }, []);
+  // useEffect(() => {
+  //   axios.get("http://localhost:3000/db.json").then(({ data }) => {
+  //     setSliderData(data.data[1].sliderCardData);
+  //     // console.log(data.data)
+  //     setIsLoading(false);
+  //   });
+  // }, []);
 
   return (
     <div class="wrapper">
@@ -107,6 +111,7 @@ function App() {
           path="/"
           element={
             <Main
+              
               sliderData={sliderData}
               setIsLoading={setIsLoading}
               isLoading={isLoading}
@@ -125,6 +130,8 @@ function App() {
           path="/menu"
           element={
             <OurMenuPage
+            setMenuData={setMenuData}
+            menuData={menuData}
               db={db}
               setDb={setDb}
               onAddData={onAddData}
