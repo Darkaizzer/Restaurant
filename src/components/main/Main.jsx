@@ -2,6 +2,7 @@ import About from "./About/About";
 import Hero from "./Hero/Hero";
 import OfterOrder from "./OftenOrder/OfterOrder";
 import Slide from "./Slider/Slide";
+import "./Main.scss";
 const Main = ({
   db,
   setDb,
@@ -13,8 +14,7 @@ const Main = ({
   activeModal,
   isLoading,
   setIsLoading,
-  sliderData
-  
+  sliderData,
 }) => {
   return (
     <main>
@@ -34,6 +34,31 @@ const Main = ({
         setDb={setDb}
         onAddData={onAddData}
       />
+
+      {/* test scss */}
+      {/* <div className="test">
+        <h1>hello from react</h1>
+        <div className="test_block">
+          <p>
+            Lorem ipsum dolor sit, <strong>amet consectetur </strong>{" "}
+            adipisicing elit. Ipsa, ab?
+          </p>
+          <div className="test_block_cards">
+            <div className="test_block_cerd">
+              <p>Test SCSS.</p>
+              <button>click</button>
+            </div>
+            <div className="test_block_input">
+              <input type="text" />
+            </div>
+            <div className="test_block_cerd">
+              <p>Test SCSS.</p>
+              <button>click</button>
+            </div>
+          </div>
+        </div>
+      </div> */}
+      {/* test scss */}
     </main>
   );
 };

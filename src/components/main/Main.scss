@@ -1,0 +1,62 @@
+$background-color: rgb(132, 173, 230);
+// $background-color: rgb(18, 208, 47);
+// $background-color: rgb(202, 18, 110);
+$fonts: 16px;
+$fonts: 18px;
+$fonts: 20px;
+
+@mixin d-flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+@mixin d-flex-col-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.test {
+  background-color: $background-color;
+  font-size: $fonts;
+  height: 70vh;
+  h1 {
+    color: rgb(19, 55, 116);
+    text-align: center;
+    margin: 40px 0;
+  }
+  .test_block {
+    @include d-flex-col-center();
+    > p {
+      color: rgb(13, 120, 123);
+      strong {
+        color: green;
+      }
+    }
+    .test_block_cards {
+      @include d-flex-center();
+      width: 100%;
+      margin-top: 20px;
+      .test_block_cerd {
+        background-color: burlywood;
+        padding: 30px;
+       @include d-flex-col-center();
+        p {
+          color: rgb(255, 0, 230);
+        }
+        button {
+          padding: 20px 30px;
+          background-color: rgb(150, 135, 135);
+          color: rgb(0, 21, 255);
+        }
+      }
+      .test_block_input{
+        border-radius: 10px;
+       box-shadow: 50% black ;
+       
+       width: 50px;
+      }
+    }
+  }
+}
