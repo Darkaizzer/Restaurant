@@ -111,7 +111,6 @@ function App() {
           path="/"
           element={
             <Main
-              
               sliderData={sliderData}
               setIsLoading={setIsLoading}
               isLoading={isLoading}
